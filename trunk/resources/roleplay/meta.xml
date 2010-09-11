@@ -1,0 +1,51 @@
+<meta>
+    <info author="Orange" version="1.0" name="Orange Roleplay" description="Roleplay based on OpenFrame" type="gamemode" />
+
+	<!-- openframe/core/* -->
+	<script src="openframe/core/utils.lua"         type="server" />
+    <script src="openframe/core/utils.lua"         type="client" />
+    <script src="openframe/core/class_class.lua"   type="server"/>
+    <script src="openframe/core/class_class.lua"   type="client" />
+    <script src="openframe/core/debug_class.lua"   type="server" />
+    <script src="openframe/core/debug_class.lua"   type="client" />
+    <script src="openframe/core/event_class.lua"   type="server" />
+    <script src="openframe/core/event_class.lua"   type="client" />
+    <script src="openframe/core/store_class.lua"   type="server" />
+    <script src="openframe/core/store_class.lua"   type="client" />
+    <script src="openframe/core/command_class.lua" type="server" />
+    <script src="openframe/core/command_class.lua" type="client" />
+    <script src="openframe/core/timer_class.lua"   type="server" />
+    <script src="openframe/core/timer_class.lua"   type="client" />
+	
+	<!-- openframe/database/* -->
+	<script src="openframe/database/mysql_class.lua" type="server" />
+	
+	<!-- openframe/directx/* -->
+    <script src="openframe/directx/textlib.lua"      type="client" />
+    <script src="openframe/directx/textlib_anim.lua" type="client" />
+	<script src="openframe/directx/textlib_s.lua"    type="server" />
+	
+	<!-- openframe/gui/* -->
+    <script src="openframe/gui/GUICollection.lua"     type="client" />
+	<script src="openframe/gui/sharedfuncs_class.lua" type="client" />
+	<script src="openframe/gui/button_class.lua"      type="client" />
+	<script src="openframe/gui/checkbox_class.lua"    type="client" />
+	<script src="openframe/gui/gridlist_class.lua"    type="client" />
+	<script src="openframe/gui/label_class.lua"       type="client" />
+	<script src="openframe/gui/memo_class.lua"        type="client" />
+	<script src="openframe/gui/progressbar_class.lua" type="client" />
+	<script src="openframe/gui/radiobutton_class.lua" type="client" />
+	<script src="openframe/gui/scrollbar_class.lua"   type="client" />
+	<script src="openframe/gui/staticimage_class.lua" type="client" />
+	<script src="openframe/gui/wndtab_class.lua"      type="client" />
+	<script src="openframe/gui/tab_class.lua"         type="client" />
+	<script src="openframe/gui/tabpanel_class.lua"    type="client" />
+	<script src="openframe/gui/textbox_class.lua"     type="client" />
+	<script src="openframe/gui/window_class.lua"      type="client" />
+	
+	<!-- openframe/xml/* -->
+    <script src="openframe/xml/xml.lua"      type="client" />
+	<script src="openframe/xml/xml_node.lua" type="client" />
+	<script src="openframe/xml/xml.lua"      type="server" />
+	<script src="openframe/xml/xml_node.lua" type="server" />
+</meta>
