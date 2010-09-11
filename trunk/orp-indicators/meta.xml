@@ -1,6 +1,0 @@
-<meta>
-	<info author="L" name="OrangeRP: Indicators" />
-	
-	<script src="ind_server.lua" type="server" />	
-	<script src="ind_client.lua" type="client" />
-</meta>
